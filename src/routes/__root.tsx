@@ -82,6 +82,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "FutureStep" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "FutureStep — সিঙ্গাপুর ট্রেনিং সেন্টার" },
+      { name: "twitter:title", content: "FutureStep — সিঙ্গাপুর ট্রেনিং সেন্টার" },
+      { property: "og:description", content: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। মান সম্মত প্রশিক্ষণ ও নিশ্চিত কর্মসংস্থান।" },
+      { name: "twitter:description", content: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। মান সম্মত প্রশিক্ষণ ও নিশ্চিত কর্মসংস্থান।" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8255e1cf-15fa-40b3-abe8-af5a9d01a447/id-preview-c2a6c813--42b520e2-0b90-406e-bbcc-14b8b813378f.lovable.app-1780903735191.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8255e1cf-15fa-40b3-abe8-af5a9d01a447/id-preview-c2a6c813--42b520e2-0b90-406e-bbcc-14b8b813378f.lovable.app-1780903735191.png" },
     ],
     links: [
       {
