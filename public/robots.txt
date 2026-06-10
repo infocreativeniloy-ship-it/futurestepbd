@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cozy-kind-orb.lovable.app/sitemap.xml

@@ -1,0 +1,14 @@
+# FutureStep
+
+> FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। BCA Skill প্রশিক্ষণ, ভিসা প্রক্রিয়া ও নিশ্চিত কর্মসংস্থান।
+
+FutureStep (Future Step Youth Development Training Center) আশুলিয়া, সাভার, ঢাকায় অবস্থিত একটি BMET অনুমোদিত ট্রেনিং সেন্টার। আমাদের মাদার কোম্পানি BSM GROUP Singapore এর সাথে সরাসরি পার্টনারশিপের মাধ্যমে সিঙ্গাপুরে General Worker, Welder, Lifting Supervisor, Safety Supervisor, Site Supervisor, Forklift Operator ও Rigger & Signal Man পজিশনে কর্মী প্রেরণ করা হয়। মাত্র ১ বছরের মধ্যে BCA (Building & Construction Authority) Skill অর্জনের নিশ্চয়তা।
+
+## Pages
+
+- [Home](/): সিঙ্গাপুরে ক্যারিয়ার গড়ুন — FutureStep এর প্রশিক্ষণ ও নিয়োগ সেবা।
+- [About](/about): আমাদের সম্পর্কে — মিশন, ভিশন, ট্রেড লাইসেন্স ও BSM GROUP পার্টনারশিপ।
+- [Courses](/courses): সিঙ্গাপুরের চাহিদাসম্পন্ন কোর্সসমূহ — ওয়েল্ডিং, সেফটি, সুপারভাইজর, ফর্কলিফট ইত্যাদি।
+- [Gallery](/gallery): সফল প্রার্থীদের গ্যালারি ও মুহূর্ত — ভিসা, প্রশিক্ষণ ও সিঙ্গাপুরে কাজ।
+- [Jobs](/jobs): সিঙ্গাপুরে চলমান চাকরির সুযোগ ও বেতন কাঠামো।
+- [Contact](/contact): যোগাযোগের তথ্য, অফিসের ঠিকানা ও আবেদন ফর্ম।
