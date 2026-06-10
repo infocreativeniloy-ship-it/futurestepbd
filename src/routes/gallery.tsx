@@ -3,6 +3,16 @@ import { SiteLayout } from "@/components/site/Layout";
 import trainingImg from "@/assets/training.jpg";
 import successImg from "@/assets/success.jpg";
 import heroImg from "@/assets/hero-singapore.jpg";
+import weldingImg from "@/assets/course-welding.jpg";
+import forkliftImg from "@/assets/course-forklift.jpg";
+import safetyImg from "@/assets/course-safety.jpg";
+import riggerImg from "@/assets/course-rigger.jpg";
+import siteSupImg from "@/assets/course-site-supervisor.jpg";
+import generalWorkerImg from "@/assets/course-general-worker.jpg";
+import liftingImg from "@/assets/course-lifting.jpg";
+import classroomImg from "@/assets/course-classroom.jpg";
+import scaffoldingImg from "@/assets/course-scaffolding.jpg";
+import departureImg from "@/assets/course-departure.jpg";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -23,12 +33,19 @@ const testimonials = [
 ];
 
 const images = [
+  { src: weldingImg, alt: "ওয়েল্ডিং প্রশিক্ষণ" },
+  { src: forkliftImg, alt: "ফর্কলিফট অপারেটর ট্রেনিং" },
+  { src: safetyImg, alt: "সেফটি সুপারভাইজার ব্রিফিং" },
+  { src: riggerImg, alt: "রিগার ও সিগন্যাল ম্যান" },
+  { src: siteSupImg, alt: "সাইট সুপারভাইজার" },
+  { src: liftingImg, alt: "লিফটিং সুপারভাইজার" },
+  { src: generalWorkerImg, alt: "জেনারেল ওয়ার্কার" },
+  { src: scaffoldingImg, alt: "স্ক্যাফোল্ডিং প্র্যাকটিস" },
+  { src: classroomImg, alt: "ক্লাসরুম ট্রেনিং" },
   { src: trainingImg, alt: "প্রশিক্ষণ কেন্দ্র" },
   { src: successImg, alt: "সফল প্রার্থী" },
+  { src: departureImg, alt: "সিঙ্গাপুরের পথে যাত্রা" },
   { src: heroImg, alt: "সিঙ্গাপুর" },
-  { src: trainingImg, alt: "ওয়ার্কশপ" },
-  { src: heroImg, alt: "মেরিনা বে" },
-  { src: successImg, alt: "সাফল্য" },
 ];
 
 function GalleryPage() {
@@ -43,10 +60,10 @@ function GalleryPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 md:grid-cols-3 md:gap-5">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 md:grid-cols-3 md:gap-5 lg:grid-cols-4 lg:gap-6">
           {images.map((img, i) => (
-            <div key={i} className="group relative overflow-hidden rounded-xl">
-              <img src={img.src} alt={img.alt} loading="lazy" className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-110" />
+            <div key={i} className="group relative overflow-hidden rounded-xl shadow-sm">
+              <img src={img.src} alt={img.alt} loading="lazy" width={1280} height={960} className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
               <div className="absolute bottom-0 left-0 right-0 p-4 text-sm font-medium text-primary-foreground opacity-0 transition-opacity group-hover:opacity-100">{img.alt}</div>
             </div>
