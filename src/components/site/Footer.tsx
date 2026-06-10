@@ -1,20 +1,19 @@
 import { Link } from "@tanstack/react-router";
-import { Facebook, Mail, MapPin, Phone, Plane } from "lucide-react";
+import { Facebook, Mail, MapPin, Phone } from "lucide-react";
+import logo from "@/assets/futurestep-logo.png.asset.json";
 
 export function Footer() {
   return (
     <footer className="border-t border-border bg-primary text-primary-foreground">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <div>
-          <div className="flex items-center gap-2">
-            <span className="flex h-9 w-9 items-center justify-center rounded-md bg-secondary text-secondary-foreground">
-              <Plane className="h-5 w-5" />
-            </span>
-            <span className="text-xl font-bold">FutureStep</span>
+          <div className="inline-flex items-center rounded-lg bg-white px-3 py-2">
+            <img src={logo.url} alt="Future Step" className="h-12 w-auto" />
           </div>
-          <p className="mt-4 text-sm text-primary-foreground/75">
-            সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। মান সম্মত প্রশিক্ষণ ও নিশ্চিত কর্মসংস্থান।
+          <p className="mt-4 text-sm text-primary-foreground/80">
+            Future Step — Youth Development Training Center। সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান।
           </p>
+          <p className="mt-2 text-xs italic text-secondary">"Learn Today, Lead Tomorrow"</p>
         </div>
 
         <div>
@@ -24,15 +23,29 @@ export function Footer() {
             <li><Link to="/courses" className="hover:text-secondary">কোর্সসমূহ</Link></li>
             <li><Link to="/jobs" className="hover:text-secondary">চাকরির সুযোগ</Link></li>
             <li><Link to="/gallery" className="hover:text-secondary">গ্যালারি</Link></li>
+            <li><Link to="/contact" className="hover:text-secondary">যোগাযোগ</Link></li>
           </ul>
         </div>
 
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-wider text-secondary">যোগাযোগ</h4>
-          <ul className="mt-4 space-y-3 text-sm text-primary-foreground/80">
-            <li className="flex gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-secondary" /> ঢাকা, বাংলাদেশ</li>
-            <li className="flex gap-2"><Phone className="mt-0.5 h-4 w-4 shrink-0 text-secondary" /> +৮৮০ ১৭০০-০০০০০০</li>
-            <li className="flex gap-2"><Mail className="mt-0.5 h-4 w-4 shrink-0 text-secondary" /> info@futurestep.com</li>
+          <ul className="mt-4 space-y-3 text-sm text-primary-foreground/85">
+            <li className="flex gap-2">
+              <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-secondary" />
+              <span>Vill: Kurgaon, Post: Mirzanagar-1344, Ward No: 03, Thana: Ashulia, Savar, Dhaka</span>
+            </li>
+            <li className="flex gap-2">
+              <Phone className="mt-0.5 h-4 w-4 shrink-0 text-secondary" />
+              <div className="flex flex-col">
+                <a href="tel:+8801711752685" className="hover:text-secondary">+880 1711-752685</a>
+                <a href="tel:+8801764118114" className="hover:text-secondary">+880 1764-118114</a>
+                <a href="tel:+8801888254380" className="hover:text-secondary">+880 1888-254380</a>
+              </div>
+            </li>
+            <li className="flex gap-2">
+              <Mail className="mt-0.5 h-4 w-4 shrink-0 text-secondary" />
+              <a href="mailto:catexpressbd@gmail.com" className="hover:text-secondary">catexpressbd@gmail.com</a>
+            </li>
           </ul>
         </div>
 
@@ -43,15 +56,18 @@ export function Footer() {
               <Facebook className="h-4 w-4" />
             </a>
           </div>
-          <p className="mt-6 text-xs text-primary-foreground/60">
+          <p className="mt-6 text-xs text-primary-foreground/70">
             অফিস সময়: শনি–বৃহস্পতি, সকাল ১০টা – সন্ধ্যা ৬টা
+          </p>
+          <p className="mt-2 text-xs text-primary-foreground/70">
+            ওয়েবসাইট: FutureStepBD.com
           </p>
         </div>
       </div>
 
       <div className="border-t border-primary-foreground/15">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-primary-foreground/60 sm:flex-row sm:px-6 lg:px-8">
-          <p>© {new Date().getFullYear()} FutureStep. সর্বস্বত্ব সংরক্ষিত।</p>
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-primary-foreground/65 sm:flex-row sm:px-6 lg:px-8">
+          <p>© {new Date().getFullYear()} Future Step. সর্বস্বত্ব সংরক্ষিত।</p>
           <p>BMET লাইসেন্সকৃত রিক্রুটিং এজেন্সি</p>
         </div>
       </div>
