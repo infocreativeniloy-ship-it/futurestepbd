@@ -15,13 +15,13 @@ export const Route = createFileRoute("/courses")({
 });
 
 const courses = [
-  { title: "General Worker", duration: "১ বছরের মধ্যে BCS Skill", seats: "৫০ জন", desc: "সিঙ্গাপুরের কনস্ট্রাকশন ও ম্যানুফ্যাকচারিং সেক্টরে এন্ট্রি লেভেল কাজের জন্য সম্পূর্ণ প্রশিক্ষণ।" },
-  { title: "Welder (6G / 3G)", duration: "১ বছরের মধ্যে BCS Skill", seats: "৩০ জন", desc: "সিঙ্গাপুরের শিপইয়ার্ড ও কনস্ট্রাকশন সেক্টরে সবচেয়ে চাহিদাসম্পন্ন আন্তর্জাতিক মানের ওয়েল্ডিং কোর্স।" },
-  { title: "Lifting Supervisor", duration: "১ বছরের মধ্যে BCS Skill", seats: "২০ জন", desc: "ক্রেন ও লিফটিং অপারেশন সুপারভিশন — সিঙ্গাপুর MOM স্বীকৃত ভূমিকার জন্য।" },
-  { title: "Safety Supervisor", duration: "১ বছরের মধ্যে BCS Skill", seats: "২৫ জন", desc: "WSH (Workplace Safety & Health) সুপারভিশন — উচ্চ বেতনের চাহিদাসম্পন্ন পজিশন।" },
-  { title: "Site Supervisor", duration: "১ বছরের মধ্যে BCS Skill", seats: "২০ জন", desc: "কনস্ট্রাকশন সাইট ম্যানেজমেন্ট, টিম লিডিং ও কোয়ালিটি কন্ট্রোলের পূর্ণাঙ্গ প্রশিক্ষণ।" },
-  { title: "Forklift Operator", duration: "১ বছরের মধ্যে BCS Skill", seats: "৩০ জন", desc: "ফর্কলিফট অপারেশন ও সেফটি — লজিস্টিকস ও ওয়্যারহাউস সেক্টরে নিশ্চিত কাজ।" },
-  { title: "Rigger & Signal Man", duration: "১ বছরের মধ্যে BCS Skill", seats: "২৫ জন", desc: "লিফটিং অপারেশনে রিগিং ও সিগন্যালিং — সিঙ্গাপুরে অপরিহার্য দক্ষতা।" },
+  { title: "General Worker", duration: "১ বছরের মধ্যে BCA Skill", seats: "৫০ জন", desc: "সিঙ্গাপুরের কনস্ট্রাকশন ও ম্যানুফ্যাকচারিং সেক্টরে এন্ট্রি লেভেল কাজের জন্য সম্পূর্ণ প্রশিক্ষণ।" },
+  { title: "Welder (6G / 3G)", duration: "১ বছরের মধ্যে BCA Skill", seats: "৩০ জন", desc: "সিঙ্গাপুরের শিপইয়ার্ড ও কনস্ট্রাকশন সেক্টরে সবচেয়ে চাহিদাসম্পন্ন আন্তর্জাতিক মানের ওয়েল্ডিং কোর্স।" },
+  { title: "Lifting Supervisor", duration: "১ বছরের মধ্যে BCA Skill", seats: "২০ জন", desc: "ক্রেন ও লিফটিং অপারেশন সুপারভিশন — সিঙ্গাপুর MOM স্বীকৃত ভূমিকার জন্য।" },
+  { title: "Safety Supervisor", duration: "১ বছরের মধ্যে BCA Skill", seats: "২৫ জন", desc: "WSH (Workplace Safety & Health) সুপারভিশন — উচ্চ বেতনের চাহিদাসম্পন্ন পজিশন।" },
+  { title: "Site Supervisor", duration: "১ বছরের মধ্যে BCA Skill", seats: "২০ জন", desc: "কনস্ট্রাকশন সাইট ম্যানেজমেন্ট, টিম লিডিং ও কোয়ালিটি কন্ট্রোলের পূর্ণাঙ্গ প্রশিক্ষণ।" },
+  { title: "Forklift Operator", duration: "১ বছরের মধ্যে BCA Skill", seats: "৩০ জন", desc: "ফর্কলিফট অপারেশন ও সেফটি — লজিস্টিকস ও ওয়্যারহাউস সেক্টরে নিশ্চিত কাজ।" },
+  { title: "Rigger & Signal Man", duration: "১ বছরের মধ্যে BCA Skill", seats: "২৫ জন", desc: "লিফটিং অপারেশনে রিগিং ও সিগন্যালিং — সিঙ্গাপুরে অপরিহার্য দক্ষতা।" },
   { title: "Construction Safety (CSOC)", duration: "১ মাস", seats: "৪০ জন", desc: "সিঙ্গাপুরে কাজ শুরুর জন্য বাধ্যতামূলক সেফটি ওরিয়েন্টেশন ও সার্টিফিকেশন।" },
 ];
 
@@ -34,7 +34,7 @@ function CoursesPage() {
           <p className="text-sm font-semibold uppercase tracking-wider text-secondary">প্রশিক্ষণ কর্মসূচি</p>
           <h1 className="mt-3 text-4xl font-bold sm:text-5xl">সিঙ্গাপুরের চাহিদাসম্পন্ন ক্যাটাগরি</h1>
           <p className="mt-4 max-w-2xl text-primary-foreground/80">
-            আমরা মূলত সিঙ্গাপুরে General Worker, Welder, Lifting Supervisor, Safety Supervisor, Site Supervisor, Forklift Operator ও Rigger/Signal Man পজিশনে কর্মী প্রেরণ করি। মাত্র <span className="font-bold text-secondary">১ বছরের মধ্যে BCS Skill</span> অর্জনের নিশ্চয়তা।
+            আমরা মূলত সিঙ্গাপুরে General Worker, Welder, Lifting Supervisor, Safety Supervisor, Site Supervisor, Forklift Operator ও Rigger/Signal Man পজিশনে কর্মী প্রেরণ করি। মাত্র <span className="font-bold text-secondary">১ বছরের মধ্যে BCA Skill</span> অর্জনের নিশ্চয়তা।
           </p>
         </div>
       </section>
