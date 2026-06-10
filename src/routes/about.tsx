@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
-import { Target, Eye, Award, Users } from "lucide-react";
+import { Target, Eye, Award, Users, ShieldCheck } from "lucide-react";
 import trainingImg from "@/assets/training.jpg";
+import licenseAsset from "@/assets/trade-license.jpg.asset.json";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -57,6 +58,31 @@ function AboutPage() {
               <p className="mt-2 text-sm text-muted-foreground">{it.desc}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+
+      <section id="license" className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="grid items-center gap-12 lg:grid-cols-2">
+          <div>
+            <div className="inline-flex items-center gap-2 rounded-full bg-secondary/10 px-3 py-1 text-xs font-semibold text-secondary">
+              <ShieldCheck className="h-4 w-4" /> বৈধ ও অনুমোদিত প্রতিষ্ঠান
+            </div>
+            <h2 className="mt-4 text-3xl font-bold text-foreground">আমাদের ট্রেড লাইসেন্স</h2>
+            <p className="mt-4 text-muted-foreground">
+              FutureStep (Future Step Youth Development Training Center) পাথালিয়া ইউনিয়ন পরিষদ, আশুলিয়া, সাভার, ঢাকা কর্তৃক বৈধভাবে নিবন্ধিত একটি ট্রেনিং সেন্টার।
+            </p>
+            <dl className="mt-6 space-y-3 text-sm">
+              <div className="flex justify-between border-b border-border pb-2"><dt className="text-muted-foreground">প্রতিষ্ঠানের নাম</dt><dd className="font-semibold text-foreground">Future Step Youth Development Training Center</dd></div>
+              <div className="flex justify-between border-b border-border pb-2"><dt className="text-muted-foreground">License No</dt><dd className="font-semibold text-foreground">009624</dd></div>
+              <div className="flex justify-between border-b border-border pb-2"><dt className="text-muted-foreground">Trade License No</dt><dd className="font-semibold text-foreground">2026261727200 9624</dd></div>
+              <div className="flex justify-between border-b border-border pb-2"><dt className="text-muted-foreground">Issue Date</dt><dd className="font-semibold text-foreground">04-06-2026</dd></div>
+              <div className="flex justify-between"><dt className="text-muted-foreground">Valid Till</dt><dd className="font-semibold text-foreground">30-06-2026 (বার্ষিক নবায়নযোগ্য)</dd></div>
+            </dl>
+          </div>
+          <a href={licenseAsset.url} target="_blank" rel="noopener noreferrer" className="block overflow-hidden rounded-2xl border border-border shadow-xl transition hover:shadow-2xl">
+            <img src={licenseAsset.url} alt="FutureStep Trade License — Pathalia Union Parishad" loading="lazy" className="h-full w-full object-cover" />
+          </a>
         </div>
       </section>
     </SiteLayout>
