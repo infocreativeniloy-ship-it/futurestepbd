@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
-import { Target, Eye, Award, Users } from "lucide-react";
+import { Target, Eye, Award, Users, ShieldCheck } from "lucide-react";
 import trainingImg from "@/assets/training.jpg";
+import licenseAsset from "@/assets/trade-license.jpg.asset.json";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
