@@ -9,6 +9,12 @@ export const Route = createFileRoute("/jobs")({
       { name: "description", content: "সিঙ্গাপুরে বিভিন্ন সেক্টরে চাকরির সুযোগ — কনস্ট্রাকশন, হসপিটালিটি, মেরিন, ম্যানুফ্যাকচারিং এবং আরও অনেক।" },
       { property: "og:title", content: "চাকরির সুযোগ — FutureStep" },
       { property: "og:description", content: "সিঙ্গাপুরে কর্মসংস্থানের সম্ভাবনা ও বেতন কাঠামো।" },
+      { property: "og:url", content: "https://cozy-kind-orb.lovable.app/jobs" },
+      { name: "twitter:title", content: "চাকরির সুযোগ — FutureStep" },
+      { name: "twitter:description", content: "সিঙ্গাপুরে কর্মসংস্থানের সম্ভাবনা ও বেতন কাঠামো।" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://cozy-kind-orb.lovable.app/jobs" },
     ],
   }),
   component: JobsPage,

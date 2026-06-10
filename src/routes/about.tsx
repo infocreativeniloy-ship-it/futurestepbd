@@ -11,6 +11,12 @@ export const Route = createFileRoute("/about")({
       { name: "description", content: "FutureStep সম্পর্কে জানুন — মিশন, ভিশন, এবং সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে আমাদের অভিজ্ঞতা।" },
       { property: "og:title", content: "আমাদের সম্পর্কে — FutureStep" },
       { property: "og:description", content: "১২ বছরের অভিজ্ঞতায় বাংলাদেশ থেকে সিঙ্গাপুরে ক্যারিয়ার গড়ার বিশ্বস্ত প্রতিষ্ঠান।" },
+      { property: "og:url", content: "https://cozy-kind-orb.lovable.app/about" },
+      { name: "twitter:title", content: "আমাদের সম্পর্কে — FutureStep" },
+      { name: "twitter:description", content: "১২ বছরের অভিজ্ঞতায় বাংলাদেশ থেকে সিঙ্গাপুরে ক্যারিয়ার গড়ার বিশ্বস্ত প্রতিষ্ঠান।" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://cozy-kind-orb.lovable.app/about" },
     ],
   }),
   component: AboutPage,

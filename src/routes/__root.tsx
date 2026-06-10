@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import heroImg from "../assets/hero-singapore.jpg";
 
 function NotFoundComponent() {
   return (
@@ -81,13 +82,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। মান সম্মত প্রশিক্ষণ ও নিশ্চিত কর্মসংস্থান।" },
       { name: "author", content: "FutureStep" },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "FutureStep" },
+      { property: "og:url", content: "https://cozy-kind-orb.lovable.app/" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:title", content: "FutureStep — সিঙ্গাপুর ট্রেনিং সেন্টার" },
       { name: "twitter:title", content: "FutureStep — সিঙ্গাপুর ট্রেনিং সেন্টার" },
       { property: "og:description", content: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। মান সম্মত প্রশিক্ষণ ও নিশ্চিত কর্মসংস্থান।" },
       { name: "twitter:description", content: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। মান সম্মত প্রশিক্ষণ ও নিশ্চিত কর্মসংস্থান।" },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8255e1cf-15fa-40b3-abe8-af5a9d01a447/id-preview-c2a6c813--42b520e2-0b90-406e-bbcc-14b8b813378f.lovable.app-1780903735191.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8255e1cf-15fa-40b3-abe8-af5a9d01a447/id-preview-c2a6c813--42b520e2-0b90-406e-bbcc-14b8b813378f.lovable.app-1780903735191.png" },
+      { property: "og:image", content: "https://cozy-kind-orb.lovable.app" + heroImg },
+      { name: "twitter:image", content: "https://cozy-kind-orb.lovable.app" + heroImg },
     ],
     links: [
       {
@@ -105,6 +108,32 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "/__l5e/assets-v1/45c6f11f-2950-4b20-a86d-c743c9daddc4/apple-touch-icon.png",
       },
     ],
+    scripts: [{
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        name: "FutureStep",
+        alternateName: "Future Step Youth Development Training Center",
+        url: "https://cozy-kind-orb.lovable.app/",
+        logo: "https://cozy-kind-orb.lovable.app" + heroImg,
+        description: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান।",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Vill: Kurgaon, Post: Mirzanagar-1344, Ward No: 03, Thana: Ashulia",
+          addressLocality: "Savar",
+          addressRegion: "Dhaka",
+          addressCountry: "BD",
+        },
+        contactPoint: {
+          "@type": "ContactPoint",
+          telephone: "+880-1711-752685",
+          contactType: "customer service",
+          availableLanguage: ["Bengali", "English"],
+        },
+        sameAs: [],
+      }),
+    }],
   }),
   shellComponent: RootShell,
   component: RootComponent,

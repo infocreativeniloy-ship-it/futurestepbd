@@ -12,8 +12,29 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "FutureStep — সিঙ্গাপুর ট্রেনিং সেন্টার। মান সম্মত প্রশিক্ষণ, ভিসা প্রক্রিয়া ও নিশ্চিত কর্মসংস্থানের জন্য আপনার নির্ভরযোগ্য সঙ্গী।" },
       { property: "og:title", content: "FutureStep — সিঙ্গাপুরে ক্যারিয়ার গড়ুন" },
       { property: "og:description", content: "সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান।" },
-      { property: "og:image", content: heroImg },
+      { property: "og:url", content: "https://cozy-kind-orb.lovable.app/" },
+      { property: "og:image", content: "https://cozy-kind-orb.lovable.app" + heroImg },
+      { name: "twitter:title", content: "FutureStep — সিঙ্গাপুরে ক্যারিয়ার গড়ুন" },
+      { name: "twitter:description", content: "সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান।" },
+      { name: "twitter:image", content: "https://cozy-kind-orb.lovable.app" + heroImg },
     ],
+    links: [
+      { rel: "canonical", href: "https://cozy-kind-orb.lovable.app/" },
+    ],
+    scripts: [{
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: "FutureStep",
+        url: "https://cozy-kind-orb.lovable.app/",
+        potentialAction: {
+          "@type": "SearchAction",
+          target: "https://cozy-kind-orb.lovable.app/courses?q={search_term_string}",
+          "query-input": "required name=search_term_string",
+        },
+      }),
+    }],
   }),
   component: HomePage,
 });

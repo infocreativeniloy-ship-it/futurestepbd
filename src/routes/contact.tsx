@@ -10,6 +10,12 @@ export const Route = createFileRoute("/contact")({
       { name: "description", content: "FutureStep এর সাথে যোগাযোগ করুন। আমাদের অফিসে আসুন বা ফোন/ইমেইলে পরামর্শ নিন।" },
       { property: "og:title", content: "যোগাযোগ — FutureStep" },
       { property: "og:description", content: "ঠিকানা, ফোন, ইমেইল ও আবেদন ফর্ম।" },
+      { property: "og:url", content: "https://cozy-kind-orb.lovable.app/contact" },
+      { name: "twitter:title", content: "যোগাযোগ — FutureStep" },
+      { name: "twitter:description", content: "ঠিকানা, ফোন, ইমেইল ও আবেদন ফর্ম।" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://cozy-kind-orb.lovable.app/contact" },
     ],
   }),
   component: ContactPage,
