@@ -26,10 +26,10 @@ const features = [
 ];
 
 const courses = [
-  { title: "ওয়েল্ডিং (৬G)", duration: "৩ মাস", level: "প্রফেশনাল" },
-  { title: "কনস্ট্রাকশন সেফটি", duration: "১ মাস", level: "প্রাথমিক" },
-  { title: "ইলেকট্রিশিয়ান", duration: "৩ মাস", level: "প্রফেশনাল" },
-  { title: "হোটেল ও হসপিটালিটি", duration: "২ মাস", level: "মধ্যম" },
+  { title: "General Worker", duration: "১ বছরে BCS Skill", level: "এন্ট্রি" },
+  { title: "Welder (6G)", duration: "১ বছরে BCS Skill", level: "প্রফেশনাল" },
+  { title: "Safety Supervisor", duration: "১ বছরে BCS Skill", level: "সুপারভাইজরি" },
+  { title: "Forklift Operator", duration: "১ বছরে BCS Skill", level: "অপারেটর" },
 ];
 
 const stats = [

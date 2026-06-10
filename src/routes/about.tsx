@@ -42,6 +42,28 @@ function AboutPage() {
         </div>
       </section>
 
+      <section className="bg-primary text-primary-foreground">
+        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+          <p className="text-sm font-semibold uppercase tracking-wider text-secondary">মাদার কোম্পানি</p>
+          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">BSM GROUP — Singapore</h2>
+          <p className="mt-5 max-w-3xl text-primary-foreground/85">
+            FutureStep সিঙ্গাপুর-ভিত্তিক <span className="font-semibold text-secondary">BSM GROUP</span> এর সরাসরি সহযোগী প্রতিষ্ঠান। এই শক্তিশালী পার্টনারশিপের কারণে আমাদের প্রার্থীরা সরাসরি সিঙ্গাপুরের নামকরা প্রজেক্ট ও কোম্পানিতে কাজের সুযোগ পান — কোনো মধ্যস্বত্বভোগী ছাড়াই।
+          </p>
+          <div className="mt-8 grid gap-6 sm:grid-cols-3">
+            {[
+              { t: "সরাসরি নিয়োগ", d: "BSM Group এর মাধ্যমে সিঙ্গাপুরের প্রজেক্টে সরাসরি কাজের সুযোগ।" },
+              { t: "১ বছরে BCS Skill", d: "মাত্র ১ বছরের মধ্যে BCS (Building & Construction) দক্ষতা অর্জন।" },
+              { t: "মূল ক্যাটাগরি", d: "General Worker, Welder, Lifting/Safety/Site Supervisor, Forklift, Rigger/Signal Man।" },
+            ].map((b) => (
+              <div key={b.t} className="rounded-xl border border-primary-foreground/15 bg-primary-foreground/5 p-6 backdrop-blur">
+                <h3 className="text-lg font-bold text-secondary">{b.t}</h3>
+                <p className="mt-2 text-sm text-primary-foreground/80">{b.d}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="bg-muted/40">
         <div className="mx-auto grid max-w-7xl gap-6 px-4 py-20 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
           {[
