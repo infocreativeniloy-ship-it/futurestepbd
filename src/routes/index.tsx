@@ -104,6 +104,45 @@ function HomePage() {
         </div>
       </section>
 
+      {/* BCA Skill Badge */}
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="relative overflow-hidden rounded-3xl border-2 border-secondary/40 bg-gradient-to-br from-primary to-primary/90 p-8 text-primary-foreground shadow-2xl sm:p-12">
+          <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-secondary/20 blur-3xl" />
+          <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-secondary/10 blur-3xl" />
+          <div className="relative grid items-center gap-8 lg:grid-cols-[auto_1fr]">
+            <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+              <div className="inline-flex items-center gap-2 rounded-full border border-secondary/50 bg-secondary/15 px-4 py-2 text-sm font-bold text-secondary backdrop-blur">
+                <Award className="h-5 w-5" /> BCA SKILL CERTIFIED
+              </div>
+              <h2 className="mt-4 text-3xl font-bold sm:text-4xl">মাত্র ১ বছরে <span className="text-secondary">BCA Skill</span></h2>
+              <p className="mt-3 max-w-lg text-primary-foreground/80">
+                FutureStep এর সকল প্রশিক্ষণ BCA (Building & Construction Authority) স্ট্যান্ডার্ড অনুসরণ করে। আমাদের মাদার কোম্পানি BSM GROUP Singapore এর তত্ত্বাবধানে সিঙ্গাপুরের চাহিদামাফিক দক্ষতা অর্জনের নিশ্চয়তা।
+              </p>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-3">
+              {[
+                { icon: Clock, label: "প্রশিক্ষণ সময়কাল", value: "১ বছর" },
+                { icon: Target, label: "লক্ষ্য দেশ", value: "সিঙ্গাপুর" },
+                { icon: ShieldCheck, label: "স্বীকৃতি", value: "BSM GROUP" },
+              ].map((item) => (
+                <div key={item.label} className="rounded-2xl border border-primary-foreground/15 bg-primary-foreground/10 p-5 text-center backdrop-blur">
+                  <item.icon className="mx-auto h-8 w-8 text-secondary" />
+                  <div className="mt-2 text-2xl font-bold">{item.value}</div>
+                  <div className="text-xs text-primary-foreground/70">{item.label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="relative mt-8 flex flex-wrap justify-center gap-3 lg:justify-start">
+            {["General Worker", "Welder", "Lifting Supervisor", "Safety Supervisor", "Site Supervisor", "Forklift Operator", "Rigger & Signal Man"].map((tag) => (
+              <span key={tag} className="rounded-full border border-secondary/30 bg-secondary/10 px-3 py-1 text-xs font-medium text-secondary">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* About preview */}
       <section className="bg-muted/40">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:px-8">

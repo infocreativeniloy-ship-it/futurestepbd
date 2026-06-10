@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
-import { GraduationCap, Clock, Users, ArrowRight } from "lucide-react";
+import { GraduationCap, Clock, Users, ArrowRight, Award, ShieldCheck, Target } from "lucide-react";
 
 export const Route = createFileRoute("/courses")({
   head: () => ({
