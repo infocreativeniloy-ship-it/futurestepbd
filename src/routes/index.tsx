@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, CheckCircle2, GraduationCap, Briefcase, ShieldCheck, Users, Plane, Star } from "lucide-react";
+import { ArrowRight, CheckCircle2, GraduationCap, Briefcase, ShieldCheck, Users, Plane, Star, Award, Clock, Target } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import heroImg from "@/assets/hero-singapore.jpg";
 import trainingImg from "@/assets/training.jpg";
