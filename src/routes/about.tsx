@@ -52,7 +52,7 @@ function AboutPage() {
           <div className="mt-8 grid gap-6 sm:grid-cols-3">
             {[
               { t: "সরাসরি নিয়োগ", d: "BSM Group এর মাধ্যমে সিঙ্গাপুরের প্রজেক্টে সরাসরি কাজের সুযোগ।" },
-              { t: "১ বছরে BCS Skill", d: "মাত্র ১ বছরের মধ্যে BCS (Building & Construction) দক্ষতা অর্জন।" },
+              { t: "১ বছরে BCA Skill", d: "মাত্র ১ বছরের মধ্যে BCA (Building & Construction) দক্ষতা অর্জন।" },
               { t: "মূল ক্যাটাগরি", d: "General Worker, Welder, Lifting/Safety/Site Supervisor, Forklift, Rigger/Signal Man।" },
             ].map((b) => (
               <div key={b.t} className="rounded-xl border border-primary-foreground/15 bg-primary-foreground/5 p-6 backdrop-blur">

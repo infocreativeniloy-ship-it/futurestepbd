@@ -26,10 +26,10 @@ const features = [
 ];
 
 const courses = [
-  { title: "General Worker", duration: "১ বছরে BCS Skill", level: "এন্ট্রি" },
-  { title: "Welder (6G)", duration: "১ বছরে BCS Skill", level: "প্রফেশনাল" },
-  { title: "Safety Supervisor", duration: "১ বছরে BCS Skill", level: "সুপারভাইজরি" },
-  { title: "Forklift Operator", duration: "১ বছরে BCS Skill", level: "অপারেটর" },
+  { title: "General Worker", duration: "১ বছরে BCA Skill", level: "এন্ট্রি" },
+  { title: "Welder (6G)", duration: "১ বছরে BCA Skill", level: "প্রফেশনাল" },
+  { title: "Safety Supervisor", duration: "১ বছরে BCA Skill", level: "সুপারভাইজরি" },
+  { title: "Forklift Operator", duration: "১ বছরে BCA Skill", level: "অপারেটর" },
 ];
 
 const stats = [
