@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
-import { GraduationCap, Clock, Users, ArrowRight } from "lucide-react";
+import { GraduationCap, Clock, Users, ArrowRight, Award, ShieldCheck, Target } from "lucide-react";
 
 export const Route = createFileRoute("/courses")({
   head: () => ({
@@ -39,6 +39,39 @@ function CoursesPage() {
         </div>
       </section>
 
+      {/* BCA Skill Badge */}
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="relative overflow-hidden rounded-3xl border-2 border-secondary/40 bg-gradient-to-br from-primary to-primary/90 p-8 text-primary-foreground shadow-2xl sm:p-10">
+          <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-secondary/20 blur-3xl" />
+          <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-secondary/10 blur-3xl" />
+          <div className="relative flex flex-col items-center gap-6 text-center lg:flex-row lg:text-left">
+            <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full border-4 border-secondary/30 bg-secondary/15">
+              <Award className="h-10 w-10 text-secondary" />
+            </div>
+            <div className="flex-1">
+              <div className="inline-flex items-center gap-2 rounded-full border border-secondary/50 bg-secondary/15 px-3 py-1 text-xs font-bold text-secondary">
+                <ShieldCheck className="h-3.5 w-3.5" /> BCA SKILL CERTIFIED PROGRAM
+              </div>
+              <h2 className="mt-3 text-2xl font-bold sm:text-3xl">মাত্র ১ বছরের মধ্যে BCA Skill অর্জন</h2>
+              <p className="mt-2 max-w-2xl text-primary-foreground/80">
+                FutureStep এর সকল কোর্স সিঙ্গাপুরের Building & Construction Authority (BCA) স্ট্যান্ডার্ড অনুসারে পরিচালিত। BSM GROUP Singapore এর সরাসরি তত্ত্বাবধানে প্রশিক্ষণ — সিঙ্গাপুরে নিশ্চিত ক্যারিয়ারের জন্য।
+              </p>
+            </div>
+            <div className="grid w-full gap-3 sm:w-auto sm:grid-cols-2 lg:w-auto">
+              <div className="rounded-xl border border-primary-foreground/15 bg-primary-foreground/10 p-4 text-center">
+                <Clock className="mx-auto h-6 w-6 text-secondary" />
+                <div className="mt-1 text-xl font-bold">১ বছর</div>
+                <div className="text-xs text-primary-foreground/70">সময়কাল</div>
+              </div>
+              <div className="rounded-xl border border-primary-foreground/15 bg-primary-foreground/10 p-4 text-center">
+                <Target className="mx-auto h-6 w-6 text-secondary" />
+                <div className="mt-1 text-xl font-bold">সিঙ্গাপুর</div>
+                <div className="text-xs text-primary-foreground/70">গন্তব্য</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
