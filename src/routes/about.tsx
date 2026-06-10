@@ -60,8 +60,7 @@ function AboutPage() {
           ))}
         </div>
       </section>
-        </div>
-      </section>
+
 
       <section id="license" className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2">
