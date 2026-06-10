@@ -60,10 +60,10 @@ function GalleryPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 md:grid-cols-3 md:gap-5">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 md:grid-cols-3 md:gap-5 lg:grid-cols-4 lg:gap-6">
           {images.map((img, i) => (
-            <div key={i} className="group relative overflow-hidden rounded-xl">
-              <img src={img.src} alt={img.alt} loading="lazy" className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-110" />
+            <div key={i} className="group relative overflow-hidden rounded-xl shadow-sm">
+              <img src={img.src} alt={img.alt} loading="lazy" width={1280} height={960} className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
               <div className="absolute bottom-0 left-0 right-0 p-4 text-sm font-medium text-primary-foreground opacity-0 transition-opacity group-hover:opacity-100">{img.alt}</div>
             </div>
