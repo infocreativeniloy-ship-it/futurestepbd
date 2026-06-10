@@ -9,6 +9,12 @@ export const Route = createFileRoute("/courses")({
       { name: "description", content: "সিঙ্গাপুরে চাহিদাসম্পন্ন কোর্সসমূহ — ওয়েল্ডিং, ইলেকট্রিশিয়ান, কনস্ট্রাকশন সেফটি, হসপিটালিটি এবং আরও অনেক।" },
       { property: "og:title", content: "কোর্সসমূহ — FutureStep" },
       { property: "og:description", content: "FutureStep এর প্রশিক্ষণ কর্মসূচি সম্পর্কে জানুন।" },
+      { property: "og:url", content: "https://cozy-kind-orb.lovable.app/courses" },
+      { name: "twitter:title", content: "কোর্সসমূহ — FutureStep" },
+      { name: "twitter:description", content: "FutureStep এর প্রশিক্ষণ কর্মসূচি সম্পর্কে জানুন।" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://cozy-kind-orb.lovable.app/courses" },
     ],
   }),
   component: CoursesPage,

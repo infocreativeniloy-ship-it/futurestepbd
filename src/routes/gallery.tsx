@@ -20,6 +20,12 @@ export const Route = createFileRoute("/gallery")({
       { name: "description", content: "FutureStep এর মাধ্যমে সিঙ্গাপুরে কর্মরত প্রার্থীদের ছবি — কনস্ট্রাকশন, ওয়েল্ডিং, ইলেকট্রিক্যাল সহ বিভিন্ন কাজে।" },
       { property: "og:title", content: "গ্যালারি — FutureStep" },
       { property: "og:description", content: "ভিসা পাওয়া ও সিঙ্গাপুরে কাজ করা প্রার্থীদের মুহূর্ত।" },
+      { property: "og:url", content: "https://cozy-kind-orb.lovable.app/gallery" },
+      { name: "twitter:title", content: "গ্যালারি — FutureStep" },
+      { name: "twitter:description", content: "ভিসা পাওয়া ও সিঙ্গাপুরে কাজ করা প্রার্থীদের মুহূর্ত।" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://cozy-kind-orb.lovable.app/gallery" },
     ],
   }),
   component: GalleryPage,
