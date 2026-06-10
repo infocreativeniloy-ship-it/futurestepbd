@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { Menu, X, Plane } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logo from "@/assets/futurestep-logo.png.asset.json";
 
 const navItems = [
   { to: "/", label: "হোম" },
@@ -15,18 +16,10 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/85 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link to="/" className="flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-md bg-primary text-primary-foreground">
-            <Plane className="h-5 w-5" />
-          </span>
-          <span className="flex flex-col leading-tight">
-            <span className="text-lg font-bold text-primary">FutureStep</span>
-            <span className="text-[10px] uppercase tracking-widest text-muted-foreground">
-              Singapore Training
-            </span>
-          </span>
+    <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/90 backdrop-blur">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+        <Link to="/" className="flex items-center">
+          <img src={logo.url} alt="Future Step" className="h-12 w-auto sm:h-14" />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">

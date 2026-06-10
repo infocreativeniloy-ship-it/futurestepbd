@@ -33,9 +33,9 @@ function ContactPage() {
           <h2 className="text-2xl font-bold text-foreground">যোগাযোগের তথ্য</h2>
           <div className="mt-8 space-y-5">
             {[
-              { icon: MapPin, label: "অফিসের ঠিকানা", value: "হাউজ #১২, রোড #৫, ধানমন্ডি, ঢাকা-১২০৫" },
-              { icon: Phone, label: "ফোন", value: "+৮৮০ ১৭০০-০০০০০০ / +৮৮০ ১৯০০-০০০০০০" },
-              { icon: Mail, label: "ইমেইল", value: "info@futurestep.com" },
+              { icon: MapPin, label: "অফিসের ঠিকানা", value: "Vill: Kurgaon, Post: Mirzanagar-1344, Ward No: 03, Thana: Ashulia, Savar, Dhaka" },
+              { icon: Phone, label: "ফোন", value: "+880 1711-752685, +880 1764-118114, +880 1888-254380" },
+              { icon: Mail, label: "ইমেইল", value: "catexpressbd@gmail.com" },
               { icon: Clock, label: "অফিস সময়", value: "শনি – বৃহস্পতি, সকাল ১০টা – সন্ধ্যা ৬টা" },
             ].map((it) => (
               <div key={it.label} className="flex gap-4 rounded-xl border border-border bg-card p-5">
