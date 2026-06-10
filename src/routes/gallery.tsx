@@ -1,7 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
-import trainingImg from "@/assets/training.jpg";
-import successImg from "@/assets/success.jpg";
 import heroImg from "@/assets/hero-singapore.jpg";
 import weldingImg from "@/assets/course-welding.jpg";
 import forkliftImg from "@/assets/course-forklift.jpg";
@@ -10,41 +8,41 @@ import riggerImg from "@/assets/course-rigger.jpg";
 import siteSupImg from "@/assets/course-site-supervisor.jpg";
 import generalWorkerImg from "@/assets/course-general-worker.jpg";
 import liftingImg from "@/assets/course-lifting.jpg";
-import classroomImg from "@/assets/course-classroom.jpg";
-import scaffoldingImg from "@/assets/course-scaffolding.jpg";
+import visaImg from "@/assets/course-visa.jpg";
+import electricalImg from "@/assets/course-electrical.jpg";
+import constructionSgImg from "@/assets/course-construction-sg.jpg";
 import departureImg from "@/assets/course-departure.jpg";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
       { title: "গ্যালারি ও সাফল্যের গল্প — FutureStep" },
-      { name: "description", content: "FutureStep এর প্রশিক্ষণ মুহূর্ত, সফল প্রার্থী ও কার্যক্রমের ছবি ও টেস্টিমোনিয়াল।" },
+      { name: "description", content: "FutureStep এর মাধ্যমে সিঙ্গাপুরে কর্মরত প্রার্থীদের ছবি — কনস্ট্রাকশন, ওয়েল্ডিং, ইলেকট্রিক্যাল সহ বিভিন্ন কাজে।" },
       { property: "og:title", content: "গ্যালারি — FutureStep" },
-      { property: "og:description", content: "আমাদের সফল প্রার্থীদের গল্প।" },
+      { property: "og:description", content: "ভিসা পাওয়া ও সিঙ্গাপুরে কাজ করা প্রার্থীদের মুহূর্ত।" },
     ],
   }),
   component: GalleryPage,
 });
 
 const testimonials = [
-  { name: "মোঃ রফিকুল ইসলাম", role: "ওয়েল্ডার, সিঙ্গাপুর", quote: "FutureStep এর প্রশিক্ষণে আজ আমি সিঙ্গাপুরে ভালো বেতনে কাজ করছি।" },
+  { name: "মোঃ রফিকুল ইসলাম", role: "ওয়েল্ডার, সিঙ্গাপুর", quote: "FutureStep এর সহযোগিতায় আজ আমি সিঙ্গাপুরে ভালো বেতনে কাজ করছি।" },
   { name: "আব্দুল করিম", role: "ইলেকট্রিশিয়ান, জুরং", quote: "প্রতিটি ধাপে ওদের সহযোগিতা পেয়েছি — ভিসা থেকে এয়ারপোর্ট পর্যন্ত।" },
-  { name: "শাহীন আহমেদ", role: "হোটেল স্টাফ, মেরিনা বে", quote: "সততা ও স্বচ্ছ প্রক্রিয়ার জন্য FutureStep এর ওপর সম্পূর্ণ ভরসা।" },
+  { name: "শাহীন আহমেদ", role: "কনস্ট্রাকশন ওয়ার্কার, মেরিনা বে", quote: "সততা ও স্বচ্ছ প্রক্রিয়ার জন্য FutureStep এর ওপর সম্পূর্ণ ভরসা।" },
 ];
 
 const images = [
-  { src: weldingImg, alt: "ওয়েল্ডিং প্রশিক্ষণ" },
-  { src: forkliftImg, alt: "ফর্কলিফট অপারেটর ট্রেনিং" },
-  { src: safetyImg, alt: "সেফটি সুপারভাইজার ব্রিফিং" },
-  { src: riggerImg, alt: "রিগার ও সিগন্যাল ম্যান" },
-  { src: siteSupImg, alt: "সাইট সুপারভাইজার" },
-  { src: liftingImg, alt: "লিফটিং সুপারভাইজার" },
-  { src: generalWorkerImg, alt: "জেনারেল ওয়ার্কার" },
-  { src: scaffoldingImg, alt: "স্ক্যাফোল্ডিং প্র্যাকটিস" },
-  { src: classroomImg, alt: "ক্লাসরুম ট্রেনিং" },
-  { src: trainingImg, alt: "প্রশিক্ষণ কেন্দ্র" },
-  { src: successImg, alt: "সফল প্রার্থী" },
+  { src: visaImg, alt: "ভিসা অনুমোদন পাওয়া প্রার্থীরা" },
   { src: departureImg, alt: "সিঙ্গাপুরের পথে যাত্রা" },
+  { src: constructionSgImg, alt: "সিঙ্গাপুরে কনস্ট্রাকশনে কর্মরত" },
+  { src: weldingImg, alt: "ওয়েল্ডিং কাজে কর্মরত" },
+  { src: electricalImg, alt: "ইলেকট্রিক্যাল কাজে কর্মরত" },
+  { src: forkliftImg, alt: "ফর্কলিফট অপারেটর" },
+  { src: riggerImg, alt: "রিগার ও সিগন্যাল ম্যান" },
+  { src: liftingImg, alt: "লিফটিং সুপারভাইজার" },
+  { src: safetyImg, alt: "সেফটি সুপারভাইজার" },
+  { src: siteSupImg, alt: "সাইট সুপারভাইজার" },
+  { src: generalWorkerImg, alt: "জেনারেল ওয়ার্কার" },
   { src: heroImg, alt: "সিঙ্গাপুর" },
 ];
 
