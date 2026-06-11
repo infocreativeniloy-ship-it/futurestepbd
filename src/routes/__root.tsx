@@ -78,19 +78,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "FutureStep — সিঙ্গাপুর ট্রেনিং সেন্টার" },
-      { name: "description", content: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। মান সম্মত প্রশিক্ষণ ও নিশ্চিত কর্মসংস্থান।" },
+      { title: "FutureStep — সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান" },
+      { name: "description", content: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। BCA Skill প্রশিক্ষণ, বৈধ ভিসা প্রক্রিয়া ও নিশ্চিত কর্মসংস্থান।" },
       { name: "author", content: "FutureStep" },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "FutureStep" },
-      { property: "og:url", content: "https://cozy-kind-orb.lovable.app/" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:title", content: "FutureStep — সিঙ্গাপুর ট্রেনিং সেন্টার" },
-      { name: "twitter:title", content: "FutureStep — সিঙ্গাপুর ট্রেনিং সেন্টার" },
-      { property: "og:description", content: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। মান সম্মত প্রশিক্ষণ ও নিশ্চিত কর্মসংস্থান।" },
-      { name: "twitter:description", content: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান। মান সম্মত প্রশিক্ষণ ও নিশ্চিত কর্মসংস্থান।" },
-      { property: "og:image", content: "https://cozy-kind-orb.lovable.app" + heroImg },
-      { name: "twitter:image", content: "https://cozy-kind-orb.lovable.app" + heroImg },
     ],
     links: [
       {
