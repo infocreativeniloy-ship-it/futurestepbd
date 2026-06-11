@@ -5,13 +5,13 @@ import { GraduationCap, Clock, Users, ArrowRight, Award, ShieldCheck, Target } f
 export const Route = createFileRoute("/courses")({
   head: () => ({
     meta: [
-      { title: "কোর্সসমূহ — FutureStep" },
-      { name: "description", content: "সিঙ্গাপুরে চাহিদাসম্পন্ন কোর্সসমূহ — ওয়েল্ডিং, ইলেকট্রিশিয়ান, কনস্ট্রাকশন সেফটি, হসপিটালিটি এবং আরও অনেক।" },
-      { property: "og:title", content: "কোর্সসমূহ — FutureStep" },
-      { property: "og:description", content: "FutureStep এর প্রশিক্ষণ কর্মসূচি সম্পর্কে জানুন।" },
+      { title: "কোর্সসমূহ | FutureStep — BCA Skill প্রশিক্ষণ" },
+      { name: "description", content: "সিঙ্গাপুরে চাহিদাসম্পন্ন BCA Skill কোর্স — ওয়েল্ডিং, ইলেকট্রিশিয়ান, সেফটি সুপারভাইজার, ফর্কলিফট, রিগার ও আরও অনেক। ১ বছরের মধ্যে স্কিল সম্পন্ন।" },
+      { property: "og:title", content: "কোর্সসমূহ | FutureStep — BCA Skill প্রশিক্ষণ" },
+      { property: "og:description", content: "সিঙ্গাপুরে চাহিদাসম্পন্ন BCA Skill কোর্সসমূহ — ১ বছরের মধ্যে স্কিল সম্পন্ন।" },
       { property: "og:url", content: "https://cozy-kind-orb.lovable.app/courses" },
-      { name: "twitter:title", content: "কোর্সসমূহ — FutureStep" },
-      { name: "twitter:description", content: "FutureStep এর প্রশিক্ষণ কর্মসূচি সম্পর্কে জানুন।" },
+      { name: "twitter:title", content: "কোর্সসমূহ | FutureStep — BCA Skill প্রশিক্ষণ" },
+      { name: "twitter:description", content: "সিঙ্গাপুরে চাহিদাসম্পন্ন BCA Skill কোর্সসমূহ।" },
     ],
     links: [
       { rel: "canonical", href: "https://cozy-kind-orb.lovable.app/courses" },

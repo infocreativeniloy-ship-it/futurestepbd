@@ -5,12 +5,12 @@ import { Briefcase, MapPin, DollarSign, ArrowRight } from "lucide-react";
 export const Route = createFileRoute("/jobs")({
   head: () => ({
     meta: [
-      { title: "চাকরির সুযোগ — FutureStep" },
-      { name: "description", content: "সিঙ্গাপুরে বিভিন্ন সেক্টরে চাকরির সুযোগ — কনস্ট্রাকশন, হসপিটালিটি, মেরিন, ম্যানুফ্যাকচারিং এবং আরও অনেক।" },
-      { property: "og:title", content: "চাকরির সুযোগ — FutureStep" },
+      { title: "চাকরির সুযোগ | FutureStep — সিঙ্গাপুরে কর্মসংস্থান" },
+      { name: "description", content: "সিঙ্গাপুরে বিভিন্ন সেক্টরে চাকরির সুযোগ — কনস্ট্রাকশন, শিপইয়ার্ড, হসপিটালিটি, এমঅ্যান্ডই সহ আরও অনেক। বেতন SGD এ।" },
+      { property: "og:title", content: "চাকরির সুযোগ | FutureStep — সিঙ্গাপুরে কর্মসংস্থান" },
       { property: "og:description", content: "সিঙ্গাপুরে কর্মসংস্থানের সম্ভাবনা ও বেতন কাঠামো।" },
       { property: "og:url", content: "https://cozy-kind-orb.lovable.app/jobs" },
-      { name: "twitter:title", content: "চাকরির সুযোগ — FutureStep" },
+      { name: "twitter:title", content: "চাকরির সুযোগ | FutureStep — সিঙ্গাপুরে কর্মসংস্থান" },
       { name: "twitter:description", content: "সিঙ্গাপুরে কর্মসংস্থানের সম্ভাবনা ও বেতন কাঠামো।" },
     ],
     links: [

@@ -6,12 +6,12 @@ import { useState } from "react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "যোগাযোগ — FutureStep" },
-      { name: "description", content: "FutureStep এর সাথে যোগাযোগ করুন। আমাদের অফিসে আসুন বা ফোন/ইমেইলে পরামর্শ নিন।" },
-      { property: "og:title", content: "যোগাযোগ — FutureStep" },
+      { title: "যোগাযোগ | FutureStep — বিনামূল্যে কাউন্সেলিং" },
+      { name: "description", content: "FutureStep এর সাথে যোগাযোগ করুন — ঠিকানা: Ashulia, Savar, Dhaka। ফোন, ইমেইল ও আবেদন ফর্মের মাধ্যমে বিনামূল্যে কাউন্সেলিং নিন।" },
+      { property: "og:title", content: "যোগাযোগ | FutureStep — বিনামূল্যে কাউন্সেলিং" },
       { property: "og:description", content: "ঠিকানা, ফোন, ইমেইল ও আবেদন ফর্ম।" },
       { property: "og:url", content: "https://cozy-kind-orb.lovable.app/contact" },
-      { name: "twitter:title", content: "যোগাযোগ — FutureStep" },
+      { name: "twitter:title", content: "যোগাযোগ | FutureStep — বিনামূল্যে কাউন্সেলিং" },
       { name: "twitter:description", content: "ঠিকানা, ফোন, ইমেইল ও আবেদন ফর্ম।" },
     ],
     links: [

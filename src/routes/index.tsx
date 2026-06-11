@@ -8,14 +8,14 @@ import successImg from "@/assets/success.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "FutureStep — সিঙ্গাপুরে ক্যারিয়ার গড়ুন" },
-      { name: "description", content: "FutureStep — সিঙ্গাপুর ট্রেনিং সেন্টার। মান সম্মত প্রশিক্ষণ, ভিসা প্রক্রিয়া ও নিশ্চিত কর্মসংস্থানের জন্য আপনার নির্ভরযোগ্য সঙ্গী।" },
-      { property: "og:title", content: "FutureStep — সিঙ্গাপুরে ক্যারিয়ার গড়ুন" },
-      { property: "og:description", content: "সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান।" },
+      { title: "হোম | FutureStep — সিঙ্গাপুরে ক্যারিয়ার গড়ুন" },
+      { name: "description", content: "BCA Skill প্রশিক্ষণ, বৈধ ভিসা প্রক্রিয়া ও সিঙ্গাপুরে নিশ্চিত কর্মসংস্থানের জন্য আপনার নির্ভরযোগ্য সঙ্গী FutureStep। আজই বিনামূল্যে কাউন্সেলিং নিন।" },
+      { property: "og:title", content: "হোম | FutureStep — সিঙ্গাপুরে ক্যারিয়ার গড়ুন" },
+      { property: "og:description", content: "BCA Skill প্রশিক্ষণ, ভিসা সহায়তা ও সিঙ্গাপুরে নিশ্চিত কর্মসংস্থান।" },
       { property: "og:url", content: "https://cozy-kind-orb.lovable.app/" },
       { property: "og:image", content: "https://cozy-kind-orb.lovable.app" + heroImg },
-      { name: "twitter:title", content: "FutureStep — সিঙ্গাপুরে ক্যারিয়ার গড়ুন" },
-      { name: "twitter:description", content: "সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান।" },
+      { name: "twitter:title", content: "হোম | FutureStep — সিঙ্গাপুরে ক্যারিয়ার গড়ুন" },
+      { name: "twitter:description", content: "BCA Skill প্রশিক্ষণ, ভিসা সহায়তা ও সিঙ্গাপুরে নিশ্চিত কর্মসংস্থান।" },
       { name: "twitter:image", content: "https://cozy-kind-orb.lovable.app" + heroImg },
     ],
     links: [
