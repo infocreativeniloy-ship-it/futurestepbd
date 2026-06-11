@@ -109,7 +109,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         name: "FutureStep",
         alternateName: "Future Step Youth Development Training Center",
         url: "https://cozy-kind-orb.lovable.app/",
-        logo: "https://cozy-kind-orb.lovable.app" + heroImg,
+        logo: "https://cozy-kind-orb.lovable.app" + heroUrl,
         description: "FutureStep — বাংলাদেশ থেকে সিঙ্গাপুরে দক্ষ জনশক্তি প্রেরণে বিশ্বস্ত প্রতিষ্ঠান।",
         address: {
           "@type": "PostalAddress",
