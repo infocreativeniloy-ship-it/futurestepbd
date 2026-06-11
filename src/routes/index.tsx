@@ -237,7 +237,8 @@ function HomePage() {
       </section>
 
       {/* CTA */}
-      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+      <section className="px-4 py-20 sm:px-6 lg:px-8">
+
         <div className="overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-primary to-primary/80 p-10 text-center text-primary-foreground sm:p-16">
           <Plane className="mx-auto h-12 w-12 text-secondary" />
           <h2 className="mt-4 text-3xl font-bold sm:text-4xl">আজই শুরু করুন আপনার যাত্রা</h2>
