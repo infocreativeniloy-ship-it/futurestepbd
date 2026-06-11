@@ -22,7 +22,7 @@ export const Route = createFileRoute("/courses")({
 
 const courses = [
   { title: "General Worker", duration: "১ বছরের মধ্যে BCA Skill", seats: "৫০ জন", desc: "সিঙ্গাপুরের কনস্ট্রাকশন ও ম্যানুফ্যাকচারিং সেক্টরে এন্ট্রি লেভেল কাজের জন্য সম্পূর্ণ প্রশিক্ষণ।" },
-  { title: "Welder (6G / 3G)", duration: "১ বছরের মধ্যে BCA Skill", seats: "৩০ জন", desc: "সিঙ্গাপুরের শিপইয়ার্ড ও কনস্ট্রাকশন সেক্টরে সবচেয়ে চাহিদাসম্পন্ন আন্তর্জাতিক মানের ওয়েল্ডিং কোর্স।" },
+  { title: "Welder (6G / 3G)", duration: "১ বছরের মধ্যে BCA Skill", seats: "৩০ জন", desc: "সিঙ্গাপুরের কনস্ট্রাকশন সেক্টরে সবচেয়ে চাহিদাসম্পন্ন আন্তর্জাতিক মানের ওয়েল্ডিং কোর্স।" },
   { title: "Lifting Supervisor", duration: "১ বছরের মধ্যে BCA Skill", seats: "২০ জন", desc: "ক্রেন ও লিফটিং অপারেশন সুপারভিশন — সিঙ্গাপুর MOM স্বীকৃত ভূমিকার জন্য।" },
   { title: "Safety Supervisor", duration: "১ বছরের মধ্যে BCA Skill", seats: "২৫ জন", desc: "WSH (Workplace Safety & Health) সুপারভিশন — উচ্চ বেতনের চাহিদাসম্পন্ন পজিশন।" },
   { title: "Site Supervisor", duration: "১ বছরের মধ্যে BCA Skill", seats: "২০ জন", desc: "কনস্ট্রাকশন সাইট ম্যানেজমেন্ট, টিম লিডিং ও কোয়ালিটি কন্ট্রোলের পূর্ণাঙ্গ প্রশিক্ষণ।" },

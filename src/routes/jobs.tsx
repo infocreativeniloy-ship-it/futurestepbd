@@ -6,7 +6,7 @@ export const Route = createFileRoute("/jobs")({
   head: () => ({
     meta: [
       { title: "চাকরির সুযোগ | FutureStep — সিঙ্গাপুরে কর্মসংস্থান" },
-      { name: "description", content: "সিঙ্গাপুরে বিভিন্ন সেক্টরে চাকরির সুযোগ — কনস্ট্রাকশন, শিপইয়ার্ড, হসপিটালিটি, এমঅ্যান্ডই সহ আরও অনেক। বেতন SGD এ।" },
+      { name: "description", content: "সিঙ্গাপুরে বিভিন্ন সেক্টরে চাকরির সুযোগ — কনস্ট্রাকশন, হসপিটালিটি, এমঅ্যান্ডই সহ আরও অনেক। বেতন SGD এ।" },
       { property: "og:title", content: "চাকরির সুযোগ | FutureStep — সিঙ্গাপুরে কর্মসংস্থান" },
       { property: "og:description", content: "সিঙ্গাপুরে কর্মসংস্থানের সম্ভাবনা ও বেতন কাঠামো।" },
       { property: "og:url", content: "https://cozy-kind-orb.lovable.app/jobs" },
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/jobs")({
 });
 
 const jobs = [
-  { title: "ওয়েল্ডার (6G)", location: "জুরং, সিঙ্গাপুর", salary: "$১,৮০০ – $২,৫০০", sector: "শিপইয়ার্ড" },
+  { title: "ওয়েল্ডার (6G)", location: "জুরং, সিঙ্গাপুর", salary: "$১,৮০০ – $২,৫০০", sector: "কনস্ট্রাকশন" },
   { title: "কনস্ট্রাকশন ওয়ার্কার", location: "টুয়াস, সিঙ্গাপুর", salary: "$১,২০০ – $১,৬০০", sector: "কনস্ট্রাকশন" },
   { title: "ইলেকট্রিশিয়ান", location: "সেন্ট্রাল, সিঙ্গাপুর", salary: "$১,৫০০ – $২,২০০", sector: "এমঅ্যান্ডই" },
   { title: "হোটেল হাউসকিপিং", location: "মেরিনা বে", salary: "$১,৩০০ – $১,৭০০", sector: "হসপিটালিটি" },
