@@ -16,12 +16,12 @@ import departureImg from "@/assets/course-departure.jpg";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "গ্যালারি ও সাফল্যের গল্প — FutureStep" },
-      { name: "description", content: "FutureStep এর মাধ্যমে সিঙ্গাপুরে কর্মরত প্রার্থীদের ছবি — কনস্ট্রাকশন, ওয়েল্ডিং, ইলেকট্রিক্যাল সহ বিভিন্ন কাজে।" },
-      { property: "og:title", content: "গ্যালারি — FutureStep" },
+      { title: "গ্যালারি ও সাফল্যের গল্প | FutureStep" },
+      { name: "description", content: "FutureStep এর মাধ্যমে সিঙ্গাপুরে কর্মরত প্রার্থীদের ছবি ও সাফল্যের গল্প — কনস্ট্রাকশন, ওয়েল্ডিং, ইলেকট্রিক্যাল সহ বিভিন্ন কাজে।" },
+      { property: "og:title", content: "গ্যালারি ও সাফল্যের গল্প | FutureStep" },
       { property: "og:description", content: "ভিসা পাওয়া ও সিঙ্গাপুরে কাজ করা প্রার্থীদের মুহূর্ত।" },
       { property: "og:url", content: "https://cozy-kind-orb.lovable.app/gallery" },
-      { name: "twitter:title", content: "গ্যালারি — FutureStep" },
+      { name: "twitter:title", content: "গ্যালারি ও সাফল্যের গল্প | FutureStep" },
       { name: "twitter:description", content: "ভিসা পাওয়া ও সিঙ্গাপুরে কাজ করা প্রার্থীদের মুহূর্ত।" },
     ],
     links: [
