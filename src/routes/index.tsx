@@ -137,7 +137,7 @@ function HomePage() {
               </div>
               <h2 className="mt-4 text-3xl font-bold sm:text-4xl">মাত্র ১ বছরে <span className="text-secondary">BCA Skill</span></h2>
               <p className="mt-3 max-w-lg text-primary-foreground/80">
-                FutureStep এর সকল প্রশিক্ষণ BCA (Building & Construction Authority) স্ট্যান্ডার্ড অনুসরণ করে। আমাদের মাদার কোম্পানি BSM GROUP Singapore এর তত্ত্বাবধানে সিঙ্গাপুরের চাহিদামাফিক দক্ষতা অর্জনের নিশ্চয়তা।
+                FutureStep এর সকল প্রশিক্ষণ BCA (Building & Construction Authority) স্ট্যান্ডার্ড অনুসরণ করে। সিঙ্গাপুরের লাইসেন্সড এমপ্লয়ার ও কনস্ট্রাকশন পার্টনারদের তত্ত্বাবধানে সিঙ্গাপুরের চাহিদামাফিক দক্ষতা অর্জনের নিশ্চয়তা।
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-3">
