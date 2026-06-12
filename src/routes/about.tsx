@@ -53,7 +53,7 @@ function AboutPage() {
           <p className="text-sm font-semibold uppercase tracking-wider text-secondary">সিঙ্গাপুর পার্টনারশিপ</p>
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">সরাসরি সিঙ্গাপুরে নিয়োগ</h2>
           <p className="mt-5 max-w-3xl text-primary-foreground/85">
-            FutureStep সিঙ্গাপুরের একাধিক <span className="font-semibold text-secondary">নামকরা কনস্ট্রাকশন কোম্পানি</span> ও লাইসেন্সড এমপ্লয়ারের সাথে সরাসরি পার্টনারশিপে কাজ করে। এই শক্তিশালী নেটওয়ার্কের কারণে আমাদের প্রার্থীরা সিঙ্গাপুরের বড় বড় প্রজেক্টে সরাসরি কাজের সুযোগ পান — কোনো মধ্যস্বত্বভোগী ছাড়াই।
+            FutureStep সিঙ্গাপুরের একাধিক <span className="font-semibold text-secondary">আমাদের নিজস্ব নামকরা কনস্ট্রাকশন কোম্পানি</span> ও লাইসেন্সড এমপ্লয়ারের সাথে সরাসরি পার্টনারশিপে কাজ করে। এই শক্তিশালী নেটওয়ার্কের কারণে আমাদের প্রার্থীরা সিঙ্গাপুরের বড় বড় প্রজেক্টে সরাসরি কাজের সুযোগ পান — কোনো মধ্যস্বত্বভোগী ছাড়াই।
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-3">
             {[
