@@ -137,14 +137,14 @@ function HomePage() {
               </div>
               <h2 className="mt-4 text-3xl font-bold sm:text-4xl">মাত্র ১ বছরে <span className="text-secondary">BCA Skill</span></h2>
               <p className="mt-3 max-w-lg text-primary-foreground/80">
-                FutureStep এর সকল প্রশিক্ষণ BCA (Building & Construction Authority) স্ট্যান্ডার্ড অনুসরণ করে। আমাদের মাদার কোম্পানি BSM GROUP Singapore এর তত্ত্বাবধানে সিঙ্গাপুরের চাহিদামাফিক দক্ষতা অর্জনের নিশ্চয়তা।
+                FutureStep এর সকল প্রশিক্ষণ BCA (Building & Construction Authority) স্ট্যান্ডার্ড অনুসরণ করে। সিঙ্গাপুরের লাইসেন্সড এমপ্লয়ার ও কনস্ট্রাকশন পার্টনারদের তত্ত্বাবধানে সিঙ্গাপুরের চাহিদামাফিক দক্ষতা অর্জনের নিশ্চয়তা।
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-3">
               {[
                 { icon: Clock, label: "প্রশিক্ষণ সময়কাল", value: "১ বছর" },
                 { icon: Target, label: "লক্ষ্য দেশ", value: "সিঙ্গাপুর" },
-                { icon: ShieldCheck, label: "স্বীকৃতি", value: "BSM GROUP" },
+                { icon: ShieldCheck, label: "স্বীকৃতি", value: "BCA Standard" },
               ].map((item) => (
                 <div key={item.label} className="rounded-2xl border border-primary-foreground/15 bg-primary-foreground/10 p-5 text-center backdrop-blur">
                   <item.icon className="mx-auto h-8 w-8 text-secondary" />
