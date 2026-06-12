@@ -50,14 +50,14 @@ function AboutPage() {
 
       <section className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-wider text-secondary">মাদার কোম্পানি</p>
-          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">BSM GROUP — Singapore</h2>
+          <p className="text-sm font-semibold uppercase tracking-wider text-secondary">সিঙ্গাপুর পার্টনারশিপ</p>
+          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">সরাসরি সিঙ্গাপুরে নিয়োগ</h2>
           <p className="mt-5 max-w-3xl text-primary-foreground/85">
-            FutureStep সিঙ্গাপুর-ভিত্তিক <span className="font-semibold text-secondary">BSM GROUP</span> এর সরাসরি সহযোগী প্রতিষ্ঠান। এই শক্তিশালী পার্টনারশিপের কারণে আমাদের প্রার্থীরা সরাসরি সিঙ্গাপুরের নামকরা প্রজেক্ট ও কোম্পানিতে কাজের সুযোগ পান — কোনো মধ্যস্বত্বভোগী ছাড়াই।
+            FutureStep সিঙ্গাপুরের একাধিক <span className="font-semibold text-secondary">নামকরা কনস্ট্রাকশন কোম্পানি</span> ও লাইসেন্সড এমপ্লয়ারের সাথে সরাসরি পার্টনারশিপে কাজ করে। এই শক্তিশালী নেটওয়ার্কের কারণে আমাদের প্রার্থীরা সিঙ্গাপুরের বড় বড় প্রজেক্টে সরাসরি কাজের সুযোগ পান — কোনো মধ্যস্বত্বভোগী ছাড়াই।
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-3">
             {[
-              { t: "সরাসরি নিয়োগ", d: "BSM Group এর মাধ্যমে সিঙ্গাপুরের প্রজেক্টে সরাসরি কাজের সুযোগ।" },
+              { t: "সরাসরি নিয়োগ", d: "সিঙ্গাপুরের লাইসেন্সড এমপ্লয়ারের মাধ্যমে প্রজেক্টে সরাসরি কাজের সুযোগ।" },
               { t: "১ বছরে BCA Skill", d: "মাত্র ১ বছরের মধ্যে BCA (Building & Construction) দক্ষতা অর্জন।" },
               { t: "মূল ক্যাটাগরি", d: "General Worker, Welder, Lifting/Safety/Site Supervisor, Forklift, Rigger/Signal Man।" },
             ].map((b) => (
