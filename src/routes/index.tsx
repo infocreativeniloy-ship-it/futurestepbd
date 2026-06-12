@@ -144,7 +144,7 @@ function HomePage() {
               {[
                 { icon: Clock, label: "প্রশিক্ষণ সময়কাল", value: "১ বছর" },
                 { icon: Target, label: "লক্ষ্য দেশ", value: "সিঙ্গাপুর" },
-                { icon: ShieldCheck, label: "স্বীকৃতি", value: "BSM GROUP" },
+                { icon: ShieldCheck, label: "স্বীকৃতি", value: "BCA Standard" },
               ].map((item) => (
                 <div key={item.label} className="rounded-2xl border border-primary-foreground/15 bg-primary-foreground/10 p-5 text-center backdrop-blur">
                   <item.icon className="mx-auto h-8 w-8 text-secondary" />
